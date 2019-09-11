@@ -1,15 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-$primary : #000000;
-$secondary : #002248;
-$font-weight-base : bold;
-$font-family-base : 'Open Sans';
-$btn-border-radius : 0px;
-$btn-border-width : 3px;
-$btn-font-weight : bold;
-.list-unstyled{
-  font-weight: normal;
-}
 
 //@import "../../node_modules/foundation/scss/foundation";
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -24,15 +13,8 @@ $btn-font-weight : bold;
 //@import "../../node_modules/bootstrap/scss/images";
 //@import "../../node_modules/bootstrap/scss/reboot";
 
-@import "images","colors","article","landing_section",
-"food-menu-section","about-section", "events-section",
-"info-section","footer";
-
 $enable-responsive-font-sizes : true;
 
-.btn{
-  @extend .px-5;
-}
 
 body{
   color : $primary;
