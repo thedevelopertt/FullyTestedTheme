@@ -31,6 +31,9 @@ function landingAnimation(){
                 easing : Power3.easeOut
             }
         )
+}
+
+function scrollAnimation(){
 
     const foodMenuTimeLine = new TimelineMax({});
     foodMenuTimeLine.from(
@@ -85,7 +88,7 @@ function landingAnimation(){
     )
 
     eventsScene.setTween(eventsSectionTween).addTo(controller);
-
 }
 
 $(document).ready(landingAnimation)
+$(document).ready(scrollAnimation)
